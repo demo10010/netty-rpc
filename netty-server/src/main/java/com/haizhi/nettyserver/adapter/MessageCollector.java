@@ -34,7 +34,6 @@ public class MessageCollector extends ChannelInboundHandlerAdapter {
                 log.info(t.getName());
                 return t;
             }
-
         };
 
         // 闲置时间超过30秒的线程自动销毁
